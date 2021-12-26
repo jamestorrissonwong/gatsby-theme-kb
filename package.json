@@ -20,7 +20,7 @@
     "gatsby-plugin-tocbot": "^0.1.0",
     "gatsby-react-router-scroll": "^4.13.0",
     "gatsby-remark-double-parenthesis-link": "^0.1.5",
-    "gatsby-remark-wiki-link": "^0.3.1",
+    "gatsby-remark-wiki-link": "git://github.com/jamestorrissonwong/gatsby-remark-wiki-link.git",
     "gatsby-source-filesystem": "^3.13.0",
     "note-graph": "^0.2.0",
     "path-browserify": "^1.0.1",

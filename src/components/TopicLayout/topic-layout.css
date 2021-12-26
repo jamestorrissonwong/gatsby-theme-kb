@@ -1,0 +1,79 @@
+.topic-layout__main {
+  width: 1480px;
+  max-width: 100%;
+}
+
+.topic-layout__content {
+  max-width: min(960px, 100vw);
+  background-color: var(--kb-note-bg);
+}
+
+.topic-layout__left {
+  width: 280px;
+  position: relative;
+  background-color: var(--bg-color-2);
+  transition: 0.3s box-shadow ease-in-out;
+}
+
+.topic-layout__left--mobile {
+  top: 0;
+  left: 0;
+  position: fixed;
+  transform: translateX(-280px);
+}
+
+.topic-layout__left--mobile.topic-layout__left--show {
+  transform: translateX(0px);
+}
+
+.topic-layout__right {
+  overflow-x: hidden;
+  width: 280px;
+  transition: 0.3s box-shadow ease-in-out;
+}
+
+.topic-layout__left,
+.topic-layout__right {
+  height: 100vh;
+  overflow-y: auto;
+}
+
+.topic-layout__right--drawer {
+  position: fixed;
+  right: 0;
+  top: 0;
+  background-color: var(--bg-color-2);
+  display: none;
+}
+
+.topic-layout__right--drawer-show {
+  display: block;
+}
+
+.topic-layout .tocbot {
+  margin-top: 20px;
+}
+
+.topic-layout__header {
+  background-color: var(--bg-color-2);
+  position: sticky;
+  top: 0;
+}
+
+.topic-layout__right .dark-mode-toggle {
+  margin-top: 0.6em;
+}
+
+.topic-layout__mask {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.top-layout__header-item {
+  margin-right: .5em;
+}
+
+.toc-layout__toc-icon {
+  padding-right: .3em;
+  transform-origin: top center;
+  transform: scale(1.2);
+}

@@ -1,0 +1,13 @@
+.topic ul,
+.topic ol {
+  list-style: inherit;
+}
+
+.topic__references {
+  padding: 1em;
+  background-color: var(--kb-blockquote-bg);
+}
+
+.topic a:link:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,75 @@
+{
+  "name": "gatsby-theme-kb",
+  "description": "A Gatsby theme for publishing Knowledge Base.",
+  "version": "0.8.0",
+  "dependencies": {
+    "@gatsby-project-kb/transformer-wiki-references": "^0.3.0",
+    "@mdx-js/mdx": "^1.6.22",
+    "@mdx-js/react": "^1.6.22",
+    "@reecelucas/react-use-hotkeys": "^1.3.1",
+    "@tippyjs/react": "^4.2.5",
+    "autoprefixer": "^10.3.3",
+    "classnames": "^2.3.1",
+    "downshift": "^6.1.7",
+    "flexsearch": "^0.6.32",
+    "gatsby-plugin-local-search": "^2.0.1",
+    "gatsby-plugin-mdx": "^2.13.0",
+    "gatsby-plugin-postcss": "^4.13.0",
+    "gatsby-plugin-purgecss": "^6.0.2",
+    "gatsby-plugin-react-helmet": "^4.13.0",
+    "gatsby-plugin-tocbot": "^0.1.0",
+    "gatsby-react-router-scroll": "^4.13.0",
+    "gatsby-remark-double-parenthesis-link": "^0.1.5",
+    "gatsby-remark-wiki-link": "^0.3.1",
+    "gatsby-source-filesystem": "^3.13.0",
+    "note-graph": "^0.2.0",
+    "path-browserify": "^1.0.1",
+    "postcss": "^8.3.6",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-helmet": "^6.1.0",
+    "tailwindcss": "^2.2.9",
+    "use-breakpoint": "^2.0.2",
+    "use-dark-mode": "^2.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^16.7.10",
+    "prettier": "2.3.2",
+    "typescript": "^4.4.2"
+  },
+  "peerDependencies": {
+    "gatsby": "^3.12.0"
+  },
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "gatsby-theme",
+    "knowledge-base",
+    "bidirectional-link",
+    "note-graph"
+  ],
+  "author": {
+    "name": "hikerpig",
+    "url": "https://github.com/hikerpig"
+  },
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "typecheck": "tsc --noEmit",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hikerpig/gatsby-project-kb.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hikerpig/gatsby-project-kb/issues"
+  },
+  "gitHead": "4035ac7fc7a7308f2d7096a5c4931f9348e4b1f5"
+}

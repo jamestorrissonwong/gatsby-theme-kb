@@ -1,0 +1,21 @@
+body {
+  --toc-text-hover-color: var(--kb-link-color);
+  --toc-cur-highlight-color: var(--kb-text-color);
+}
+
+.tocbot {
+  font-size: 0.9rem;
+}
+
+.tocbot li {
+  margin-bottom: 0;
+}
+
+.toc-link::before {
+  height: 1.4em;
+  background-color: transparent;
+}
+
+.toc-link.is-active-link::before {
+  background-color: var(--toc-cur-highlight-color);
+}

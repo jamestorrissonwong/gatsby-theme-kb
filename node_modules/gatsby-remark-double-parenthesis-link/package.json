@@ -1,0 +1,33 @@
+{
+  "name": "gatsby-remark-double-parenthesis-link",
+  "version": "0.1.5",
+  "description": "Parse double parenthesis link in markdown",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "npm run clean && ../../node_modules/.bin/tsc -p ./tsconfig.json",
+    "watch": "npm run build -- --watch",
+    "clean": "rm -rf lib",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "gatsby",
+    "remark",
+    "double parenthesis"
+  ],
+  "files": [
+    "lib"
+  ],
+  "author": "Mathieu Dutour <mathieu@dutour.me>",
+  "repository": {
+    "url": "https://github.com/mathieudutour/gatsby-digital-garden",
+    "directory": "packages/gatsby-remark-double-parenthesis-link"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "slugify": "^1.5.3",
+    "unist-util-visit": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/mdast": "^3.0.4"
+  }
+}
